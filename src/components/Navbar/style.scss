@@ -1,0 +1,41 @@
+.nav {
+  width: 1340px;
+
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-between;
+  align-items: center;
+  &__brand {
+    color: #000000;
+    margin-left: 40px;
+    width: 112px;
+  }
+
+  &__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    left: -229px;
+    width: 73px;
+    position: relative;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  &__ul {
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+    margin-right: 180px;
+    &--list {
+      list-style-type: none;
+      &-link {
+        color: #000000;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
